@@ -2,12 +2,12 @@
     background: url("../images/beckgroundLogin.png") no-repeat center center fixed;
     background-size: cover;
 }
-.user-login-blog {
+.user-login-block {
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     width: 35%;
-    height: 50%;
+    height: 30%;
     text-align: center;
     margin:10% auto;
 }
@@ -16,7 +16,7 @@ form {
     text-align: center;
     display: block;
 }
-.title-form{
+.form-title{
     font:22px Oswald;
     font-weight: 400;
     color: rgba(255, 180, 0, 1);
