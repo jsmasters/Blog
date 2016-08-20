@@ -1,34 +1,29 @@
 .wrapper {
-    /*background: url("../images/background.png") no-repeat center center fixed;*/
+    background: url("../images/beckgroundLogin.png") no-repeat center center fixed;
     background-size: cover;
 }
-
-.user-login-block {
+.user-login-blog {
     border-radius: 15px;
-    background-color: #f2f2f2;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
-    margin: 10% auto;
-    width: 35%;
-    height: 55%;
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
+    width: 35%;
+    height: 50%;
     text-align: center;
+    margin:10% auto;
 }
-
 form {
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
     display: block;
 }
-
-.form-title {
-    font: 18px Oswald;
+.title-form{
+    font:22px Oswald;
     font-weight: 400;
-    color: #019c8c;
-    padding: 0 5px 5px;
+    color: rgba(255, 180, 0, 1);
+    padding: 0 5px  5px;
     text-align: center;
     margin-bottom: 15px;
 }
-
 input {
     border-radius: 30px;
     border: 3px solid #f2f2f2;
@@ -37,38 +32,48 @@ input {
     margin: 0 auto 10px;
     text-align: center;
 }
-
 input:focus {
-    font: 12px Lato;
+    font: 16px Lato;
     font-weight: 100;
     outline: none;
-    border: 3px solid #06c0ab;
+    border: 3px solid rgba(255, 180, 0, 1);
 }
-
 button {
     font: 16px Lato;
-    color: white;
-    background-color: #06c0ab;
-    padding: 8px;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    border: none;
     border-radius: 30px;
+    border: none;
+    background-color: rgba(255, 180, 0, 1);
     width: 50%;
+    height: 25px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-
 button:hover {
     background-color: #565656;
 }
-
 .form-link {
+    font: 18px Lato;
+    color: rgba(255, 180, 0, 1);
     text-decoration: none;
-    color: #048e76;
-    font: 16px Lato;
-    font-weight: 900;
+    font-weight: 400;
     padding: 10px;
+    -moz-transition-property: font-weight;
+    -moz-transition-duration:  0.2s;
+    -moz-transition-timing-function: linear;
+    -moz-transition-delay: 0.1s;
+    -webkit-transition-property: font-weight;
+    -webkit-transition-duration:  0.2s;
+    -webkit-transition-timing-function: linear;
+    -webkit-transition-delay: 0.1s;
 }
-
-#register-title {
-    width: 200px;
+.form-link:hover {
+    font-weight: 900;
+    transition: background 0.2s ease, padding 0.5s linear;
+}
+footer {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
 }
