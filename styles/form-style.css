@@ -1,5 +1,5 @@
 .wrapper {
-    background: url("../images/beckgroundLogin.png") no-repeat center center fixed;
+    background: url("/images/beckgroundLogin.png") no-repeat center center fixed;
     background-size: cover;
 }
 .user-login-block {

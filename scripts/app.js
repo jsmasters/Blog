@@ -45,12 +45,12 @@
         // Create a redirect to one of the recent posts...
     });
 
-    onRoute("#/login", function () {
+    onRoute("templates/login.html", function () {
         userController.showLoginPage(authService.isLoggedIn());
         // Show the login page...
     });
 
-    onRoute("#/register", function () {
+    onRoute("templates/register", function () {
         userController.showRegisterPage(authService.isLoggedIn());
         // Show the register page...
     });
